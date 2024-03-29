@@ -1,1 +1,0 @@
-# Ushbu repositoryni commitlariga e'tibor bering)

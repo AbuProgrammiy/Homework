@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Event Example</title>
+</head>
+<body>
+  <button id="Tugma">Meni Bos!</button>
+
+  <script>
+    function handleClick() {
+      alert('Tugma bosildi!');
+    }
+
+    var button = document.getElementById('Tugma');
+
+    button.addEventListener('click', handleClick);
+  </script>
+</body>
+</html>

@@ -42,7 +42,7 @@ function Create() {
     updateButton.setAttribute("data-bs-toggle", "modal");
     updateButton.setAttribute("data-bs-target", "#exampleModal");
     updateButton.setAttribute("data-bs-whatever", "@mdo");
-    updateButton.setAttribute("data-id", newCard.id); // Set the data-id attribute to the card's id
+    updateButton.setAttribute("data-id", newCard.id); 
     cardBody.appendChild(updateButton);
 
     updateButton.addEventListener("click", function () {
@@ -59,19 +59,18 @@ function Create() {
 
 var isEventListenerAdded = false;
 
-var nextId = 1; // Initialize the nextId variable
+var nextId = 1; 
 
 function CreateCard() {
-    // Create a new card element with a unique id
     var newCard = document.createElement("div");
     newCard.id = "card-" + nextId;
     newCard.innerHTML = "<h2>Card " + nextId + "</h2><button onclick='OpenModal(" + nextId + ")'>Open Modal</button>";
 
-    // Append the new card element to the container
+    
     var container = document.querySelector("#card-container");
     container.appendChild(newCard);
 
-    nextId++; // Increment the nextId value for the next card
+    nextId++; 
 }
 
 
@@ -83,7 +82,6 @@ function OpenModal(id) {
         var fullName = document.querySelector("#recipient-name").value;
         var password = document.querySelector("#message-text").value;
         Update(id, imagePath, fullName, password);
-        // Close the modal after updating
         var modal = document.getElementById("exampleModal");
         var modalInstance = bootstrap.Modal.getInstance(modal);
         modalInstance.hide();
@@ -91,11 +89,6 @@ function OpenModal(id) {
 }
 
 function openImageDirectory(id) {
-    // This function will be called when "Choose Image" button is clicked
-    // You can implement your logic here to open the directory and choose an image
-    // Once the image is chosen, you can update the image source in the modal
-    // and store the image path for later use
-    var imageSrc = ""; // Set the chosen image path here
     document.querySelector("#exampleModal .modal-body img").src = imageSrc;
 }
 
@@ -103,10 +96,7 @@ function DeleteElement(id) {
     document.getElementById(id).remove()
 }
 
-/*
-data-bs-toggle="modal" data-bs-target="#exampleModal"
-                data-bs-whatever="@mdo"
-*/
+
 
 
 function Update(id, imagePath, fullName, password) {

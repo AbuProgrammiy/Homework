@@ -9,6 +9,10 @@ function Clear()
 
 function Action(){
     var amal=document.getElementById("main-input").innerHTML
-    amal=amal.replace("√", "Math.sqrt(") + ")";
+    if(amal.indexOf("√")!=-1)
+    {
+
+        amal=amal.replace("√", "Math.sqrt(") + ")";
+    }
     document.getElementById("main-input").innerHTML=eval(amal)
 }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="input" id="main-input"></div>
+        <div class="buttons">
+            <div class="operators">
+                <div onclick="type('+')">+</div>
+                <div  onclick="type('-')">-</div>
+                <div onclick="type('*')">*</div>
+                <div onclick="type('/')">/</div>
+                <div onclick="type('**')">**</div>
+                <div onclick="type('&#8730;')">&#8730;</div>
+                <div onclick="type('(')">(</div>
+                <div onclick="type(')')">)</div>
+            </div>
+            <div class="leftPanel">
+                <div class="numbers">
+                    <div onclick="type('7')">7</div>
+                    <div onclick="type('8')">8</div>
+                    <div onclick="type('9')">9</div>
+                </div>
+                <div class="numbers">
+                    <div onclick="type('4')">4</div>
+                    <div onclick="type('5')">5</div>
+                    <div onclick="type('6')">6</div>
+                </div>
+                <div class="numbers">
+                    <div onclick="type('1')">1</div>
+                    <div onclick="type('2')">2</div>
+                    <div onclick="type('3')">3</div>
+                </div>
+                <div class="numbers">
+                    <div onclick="type('0')">0</div>
+                    <div onclick="type('.')">.</div>
+                    <div onclick="Clear()" id="clear">C</div>
+                </div>
+            </div>
+            <div onclick="Action()" class="equal" id="result">=</div>
+        </div>
+    </div>
+
+    <script src="important.js"></script>
+</body>
+
+</html>

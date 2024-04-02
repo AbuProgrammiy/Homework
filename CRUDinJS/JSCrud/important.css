@@ -1,0 +1,12 @@
+.contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+
+.card{
+    margin: 10px;
+}

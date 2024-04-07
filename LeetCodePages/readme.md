@@ -1,1 +1,2 @@
-# Tez-kunda
+# Pacti tayyor
+### pls wait liitle more🤕

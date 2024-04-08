@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+.table-class{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    width: 75%!important;
+}
+
+.navbar-logo{
+    width: 30px;
+    height: 30px;
+}
+
+.store{
+    color: rgb(194, 158, 74)!important;
+}
+
+.status{
+    color: green!important;
+    font-weight: 700;
+}
+
+.solution{
+    color: purple!important;
+    font-weight: 700;
+}
+
+.easy-level{
+    color: green!important;
+    font-weight: 700;
+}
+
+.medium-level{
+    color: burlywood!important;
+    font-weight: 700;   
+}
+
+.hard-level{
+    color: rgb(255, 0, 0)!important;
+    font-weight: 700; 
+}

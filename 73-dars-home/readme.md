@@ -1,5 +1,5 @@
 ## Angularni videosini korganman
-## (repo.link)[https://github.com/AbuProTutorials/home-73-dars.git]
+## [repo.link](https://github.com/AbuProTutorials/home-73-dars.git)
 
 #
 ## Component ochisni organgan edim) 

@@ -1,1 +1,1 @@
-## 5 minutes
+## video ovoli hammasini joylab qoyaman)

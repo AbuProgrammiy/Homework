@@ -1,0 +1,1 @@
+## Deadlinegacha tayyor bolib qoladi

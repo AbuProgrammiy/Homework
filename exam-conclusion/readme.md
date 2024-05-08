@@ -1,1 +1,1 @@
-# yuklayapman
+# hozir yuklayapman

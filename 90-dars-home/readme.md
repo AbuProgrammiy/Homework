@@ -6,4 +6,4 @@
 ### [Docker:_FlowerStore](https://hub.docker.com/repository/docker/abuprogrammiy/flowerstoreapi/general)
 ### [Docker:_GameStore](https://hub.docker.com/repository/docker/abuprogrammiy/flowerstoreapi/general)
 #
-## Qoshimcha narsalarni ham qoshib qoyishga harakat qilaman)
+## Qoshimcha narsalar qilsam ularni ham yuklab qoyaman)

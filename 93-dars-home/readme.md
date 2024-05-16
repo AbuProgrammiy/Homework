@@ -1,3 +1,5 @@
+### barchai mavjud vvv
+#
 # Agile Methodology
 ### Agile metodologiyasi loyihani boshqarishga moslashuvchanlik bilan yondashuvdir. U loyihani kichikroq qismlarga bo'lish va har bir 
 ### qismni ma'lum vaqt oralig'ida bajarishga qaratilgan boladi.

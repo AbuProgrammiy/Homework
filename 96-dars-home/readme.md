@@ -1,0 +1,1 @@
+### tayyar bolishiga azgina qoldi

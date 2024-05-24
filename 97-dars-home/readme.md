@@ -1,1 +1,1 @@
-### davay davay bolyapti
+### [tayyor](https://github.com/AbuProgrammiy/Homework/tree/master/97-dars-home)
